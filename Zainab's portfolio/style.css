@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #ba55d3;
+}
+header{
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+    background: #8b008b;
+    border-color: #e6e6fa;
+}
+#logo{
+    text-align: center;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #8b008b;
+}
+h1{
+    font-family: sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+h2{
+    font-size: 0.75em;
+    font-weight: normal;
+    margin: 5px 0 0;
+}
+h1, h2{
+    color: #fff;
+}
+nav{
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+    background: #e6e6fa;
+}
+nav ul{
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+nav ul li{
+    background-color: #dda0dd;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 25%;
+}
+nav ul li a{
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #fff0f5;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    font-weight: 800;
+    padding: 15px 10px;
+}
+nav a, nav a:visited{
+    color: #fff;
+}
+nav a.selected, nav a:hover{
+    color: #c0c0c0;
+}
+#wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+#wrapper li{
+    padding: 1em;
+}
+footer{
+    clear: both;
+    font-size: 0.75em;
+    color: #ccc;
+    text-align: center;
+    padding-top: 50px;
+}
+.profile-photo{
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+h3{
+    margin: 0 0 1em 0;
+}
+.contactinfo{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+.contactinfo a{
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+    display: block;
+    min-height: 20px;
+    }
